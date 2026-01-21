@@ -2,8 +2,8 @@
 "name": "be-fit-pro",
 "version": "1.0.0",
 "scripts": {
-"start": "expo start",
-"build:vercel": "expo export:web"
+"install": "npm install --include=dev",
+"build:vercel": "npx expo export:web"
 },
 "dependencies": {
 "expo": "~49.0.0",
